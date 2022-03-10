@@ -1,0 +1,86 @@
+:root {
+    --primary-color: rgb(11, 107, 163);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: var(--primary-color);
+}
+p {
+    text-align: center;
+}
+.btn {
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+.moneyImg {
+    width: 200px;
+
+}
+.currency {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency select {
+    padding: 5px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 2px solid rgb(129, 126, 126);
+    border-radius: 5px;
+    text-align: left;
+    margin: 5px; 
+}
+.currency input {
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: right;
+}
+.swap-rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate {
+    color: var(--primary-color);
+    font-size: 15px;
+    padding: 0 10px;
+}
+.last_updated {
+    color: red;
+    font-size: 15px;
+    padding: 10px;
+}
+.next_update {
+    color: red;
+    font-size: 15px;
+    padding: 10px;
+
+}
+select:focus,button:focus,input:focus {
+    font-weight: bold ;
+}
+@media (max-width: 600px) {
+    .currency input {
+        width: 200px;
+    }
+}
