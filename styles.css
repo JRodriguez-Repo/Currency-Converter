@@ -34,7 +34,7 @@ p {
 
 }
 .currency {
-    padding: 40px 0;
+    padding: 30px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -66,21 +66,42 @@ p {
     padding: 0 10px;
 }
 .last_updated {
+    text-align: center;
     color: red;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
 }
 .next_update {
+    text-align: center;
     color: red;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
 
 }
 select:focus,button:focus,input:focus {
     font-weight: bold ;
 }
+.attribution {
+   position: absolute;
+   right: 10%;
+   bottom: 10%;
+    font-size: large;
+}
 @media (max-width: 600px) {
     .currency input {
         width: 200px;
+    }
+    .last_updated {
+        position: relative;
+    }
+    .next_update {
+        position: relative;
+    }
+    .attribution {
+        display: flex;
+        position: relative;
+        font-size: 15px;
+       
+        
     }
 }
