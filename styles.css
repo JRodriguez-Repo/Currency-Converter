@@ -98,10 +98,7 @@ select:focus,button:focus,input:focus {
         position: relative;
     }
     .attribution {
-       position: absolute;
-       bottom: 3px;
-       right: 5px;
-       font-size: 10px;
+      display: none;
        
         
     }
