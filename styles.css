@@ -83,8 +83,8 @@ select:focus,button:focus,input:focus {
 }
 .attribution {
    position: absolute;
-   right: 10%;
-   bottom: 10%;
+   right: 2%;
+   bottom: 3%;
     font-size: large;
 }
 @media (max-width: 600px) {
@@ -98,10 +98,10 @@ select:focus,button:focus,input:focus {
         position: relative;
     }
     .attribution {
-        display: flex;
-        position: relative;
+        
         font-size: 15px;
        
         
     }
+    
 }
