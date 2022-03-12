@@ -83,9 +83,9 @@ select:focus,button:focus,input:focus {
 }
 .attribution {
    position: absolute;
-   right: 2%;
-   bottom: 3%;
-    font-size: large;
+   right: 10px;
+   bottom: 10px;
+   font-size: large;
 }
 @media (max-width: 600px) {
     .currency input {
@@ -98,8 +98,10 @@ select:focus,button:focus,input:focus {
         position: relative;
     }
     .attribution {
-        
-        font-size: 15px;
+       position: absolute;
+       bottom: 3px;
+       right: 5px;
+       font-size: 10px;
        
         
     }
