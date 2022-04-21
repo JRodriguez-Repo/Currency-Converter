@@ -1,7 +1,8 @@
-# Currency-Converter
-## This is a Javascript currency converter application.
+# Javascript Currency-Converter
 
-- It utilizes **Fetch API** to get the current exchange rates via https://www.exchangerate-api.com.
+
+- Utilizes **Fetch API** to get the current exchange rates via https://www.exchangerate-api.com.
 - Two currencies can be selected with the use of multiple **html5** dropdown lists.
 - Swap button allows for dynamic currency exchange.
 - Website is responsive without reloading.
+- View the website [here](https://jrodriguez2146.github.io/Currency-Converter/)
